@@ -1,0 +1,63 @@
+nav {
+  display: flex;
+  width: 100vw;
+  position: fixed;
+    /* Make the navbar fixed */
+    top: 0;
+  justify-content: right;
+
+  padding: 10px 10px;
+  margin: 10px;
+  background-color: #f8f9fa;
+  /* Light background color */
+}
+
+nav div {
+  display: flex;
+  text-align: right;
+}
+
+nav div span {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin: 0 15px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #343a40;
+  /* Dark grey color */
+  font-size: 16px;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+  /* Underline on hover */
+}
+
+button {
+  background-color: #007bff;
+  /* Blue background */
+  color: white;
+  /* White text */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  /* Rounded corners */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+  /* Darker blue on hover */
+}
