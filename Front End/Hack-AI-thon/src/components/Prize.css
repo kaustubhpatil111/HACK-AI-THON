@@ -1,0 +1,62 @@
+.prize-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.prize-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: calc(33.33% - 20px);
+}
+
+.medal-container {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.medal {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.medal.gold {
+  background-color: gold;
+}
+
+.medal.silver {
+  background-color: silver;
+}
+
+.medal.bronze {
+  background-color: #cd7f32; /* Bronze color */
+}
+
+.prize-details {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.rank {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.amount {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.sponsor {
+  font-size: 0.9em;
+  color: #777;
+}

@@ -1,0 +1,43 @@
+.app-container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  margin-bottom: 20px;
+}
+
+.main-content {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  /* This ensures child elements can use relative positioning */
+}
+
+.left-content {
+  flex: 1;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.right-content {
+  width: 350px;
+  max-width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  /* Sticky Behavior */
+  position: sticky;
+  top: 10px;
+  /* Distance from the top of the viewport */
+  align-self: flex-start;
+  /* Ensures the sidebar aligns at the top of its container */
+}

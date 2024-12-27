@@ -1,13 +1,13 @@
 nav {
   display: flex;
-  width: 100vw;
-  position: fixed;
-    /* Make the navbar fixed */
-    top: 0;
-  justify-content: right;
 
+  position: static;
+  /* Make the navbar fixed */
+  top: 0;
+  justify-content: right;
+  align-items: center;
   padding: 10px 10px;
-  margin: 10px;
+
   background-color: #f8f9fa;
   /* Light background color */
 }

@@ -1,0 +1,64 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #e91e63;
+  color: #fff;
+}
+
+.hero__content {
+  text-align: left;
+  max-width: 50%;
+}
+
+.hero__logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.hero__logo img {
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.hero__logo p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero__prize {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero__prize span {
+  font-weight: bold;
+}
+
+.hero__powered-by {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.hero__powered-by img {
+  height: 30px;
+  margin-left: 0.5rem;
+}
+
+.hero__image img {
+  max-width: 100%;
+  height: auto;
+}

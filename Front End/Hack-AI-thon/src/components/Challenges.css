@@ -1,0 +1,148 @@
+/* Container for the entire Challenges component */
+.challenges-container {
+  width: 100%;
+  padding: 40px 20px; /* Adds space around the content */
+  box-sizing: border-box;
+  background-color: #f9f9f9; /* Light background for contrast */
+}
+
+/* Heading style */
+.challenges-container h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Grid layout for challenge cards */
+.challenges-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px; /* Space between grid items */
+  max-width: 1200px; /* Optional: limits the maximum width */
+  margin: 0 auto; /* Centers the grid */
+}
+
+/* Individual challenge card */
+.challenge-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Hover effect for challenge cards */
+.challenge-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image styling */
+.challenge-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+/* Content area within the card */
+.challenge-content {
+  padding: 20px;
+  flex: 1; /* Makes sure the content area expands to fill available space */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Title styling */
+.challenge-content h3 {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  color: #555;
+  flex-grow: 1;
+}
+
+/* "View More" link styling */
+.view-more {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  transition: color 0.2s ease;
+}
+
+.view-more span {
+  margin-left: 5px;
+  transition: transform 0.2s ease;
+}
+
+/* Hover effect for "View More" link */
+.view-more:hover {
+  color: #0056b3;
+}
+
+.view-more:hover span {
+  transform: translateX(5px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .challenges-container {
+    padding: 30px 15px;
+  }
+
+  .challenges-container h2 {
+    font-size: 1.8em;
+    margin-bottom: 25px;
+  }
+
+  .challenge-image {
+    height: 130px;
+  }
+
+  .challenge-content {
+    padding: 15px;
+  }
+
+  .challenge-content h3 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+
+  .view-more {
+    font-size: 0.95em;
+  }
+}
+
+@media (max-width: 480px) {
+  .challenges-container {
+    padding: 20px 10px;
+  }
+
+  .challenges-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+
+  .challenge-image {
+    height: 120px;
+  }
+
+  .challenge-content {
+    padding: 10px;
+  }
+
+  .challenge-content h3 {
+    font-size: 1em;
+    margin-bottom: 8px;
+  }
+
+  .view-more {
+    font-size: 0.9em;
+  }
+}

@@ -1,0 +1,21 @@
+.other-sections {
+  background-color: #e9ecef;
+  padding: 50px;
+  text-align: left;
+}
+
+.other-sections h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.other-sections p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.other-sections ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
