@@ -11,13 +11,20 @@
   margin-bottom: 20px;
 }
 
+.timeline-row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
 .timeline-item {
   display: flex;
   align-items: flex-start;
   padding: 15px;
-  margin-bottom: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1px;
+}
+
+.timeilne-data{
+  padding-left:15px;
 }
 
 .timeline-date {
@@ -26,17 +33,23 @@
   align-items: center;
   justify-content: center;
   background-color: #ffffff;
-  border: 2px solid #d9d9d9;
-  border-radius: 8px;
-  padding: 10px;
-  min-width: 60px;
+  
+  border-radius: 9px; /* Border radius for rounded corners */
+
   text-align: center;
   margin-right: 20px;
+  min-width: 10%; /* Ensure the container has a minimum width */
+  height: auto; /* Allow the height to adjust automatically to content */
+ /* padding: 2px; /* Optional: Add some padding to give more room for content */
+  margin: auto; /* Centers the container horizontally */
 }
+
 
 .timeline-day {
   font-size: 20px;
   font-weight: bold;
+  padding: 10px;
+  width: 100%;
 }
 
 .timeline-month {
@@ -45,22 +58,46 @@
 }
 
 .timeline-content {
-  flex-grow: 1;
+ 
+  padding: 3px;
+  width: 85%;
+  border-radius: 8px;
+  float: right;
+   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+border-left: 4px solid #d9d9d9;   /* Optional: Add a left border for the blockquote styling */
+}
+
+.timeline-divider{
+  border-bottom: 2px solid #cdcdcd;
+  padding-top: 2px;
 }
 
 .timeline-event {
   font-size: 18px;
   font-weight: bold;
   color: #333333;
+  
 }
 
 .timeline-duration {
   font-size: 14px;
   color: #888888;
-  margin: 5px 0;
+
 }
 
 .timeline-description {
   font-size: 14px;
   color: #555555;
+  padding-top: 2px;
 }
+
+/* Apply blockquote styling only to the wrapped elements */
+.timeline-quote {
+  padding: 5px;
+ 
+  
+  background-color: #f7f7f7;
+  
+  font-style: italic; /* Optional: Change the font style for the blockquote */
+}
+
