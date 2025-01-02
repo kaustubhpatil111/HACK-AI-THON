@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Navbar from "./components/Navbar";
 import Timeline from "./components/Timeline";
+import eval from "./components/eval";
 import Challenges from "./components/Challenges";
 import FAQ from "./components/FAQ";
 import "./App.css";
