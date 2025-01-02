@@ -1,64 +1,17 @@
+
+
+
 .hero {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  background-color: #e91e63;
-  color: #fff;
-}
-
-.hero__content {
-  text-align: left;
-  max-width: 50%;
-}
-
-.hero__logo {
-  display: flex;
-  align-items: center;
-  margin-bottom: 2rem;
-}
-
-.hero__logo img {
-  height: 50px;
-  margin-right: 1rem;
-}
-
-.hero__logo p {
-  font-size: 1rem;
-  margin-bottom: 0;
-}
-
-h1 {
-  font-size: 4rem;
-  margin-bottom: 1rem;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
-
-.hero__prize {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.hero__prize span {
-  font-weight: bold;
-}
-
-.hero__powered-by {
-  display: flex;
-  align-items: center;
-  margin-top: 2rem;
-}
-
-.hero__powered-by img {
-  height: 30px;
-  margin-left: 0.5rem;
+   justify-content: center; /* Horizontally centers the content */
+  align-items: center;      /* Vertically centers the content */
+  height: 50vh;            /* Makes the section take up full viewport height */
+  width: 100%;              /* Ensures the section takes up the full width */
+  background-color: #f5f5f5; /* Optional background color */
 }
 
 .hero__image img {
-  max-width: 100%;
-  height: auto;
+  max-width: 100%;      /* Ensures the image scales to fit its container */
+  max-height: 100%;     /* Ensures the image scales to fit its container */
+  object-fit: cover;    /* Makes sure the image covers the area of its container */
 }
